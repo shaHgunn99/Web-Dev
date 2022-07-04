@@ -15,6 +15,20 @@ let cap = {
         console.log("cap say hii");
     }
 };
+let DrStrange = {
+    name: "Dr.Strange",
+    lastname: " ",
+    addres: {
+        city: "Multiverse",
+        state: "In my Mind"
+    }
+    , age: 500,
+    isAvenger: true,
+    movies: ["first avenger", "winter soldier", "civil war"],
+    sayhii: function () {
+        console.log("cap say hii");
+    }
+};
 //to excess property name
 console.log(cap.name);
 console.log(cap.isAvenger);
